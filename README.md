@@ -67,19 +67,11 @@ assert_operator(2, :>, 1)
 assert_output(/foo/, nil) do
   puts "fooooo"
 end
-```
 
-### assert_output
-
-```ruby
 assert_output(nil, /foo/) do
   $stdout.puts "fooooo"
 end
-```
 
-### assert_output
-
-```ruby
 assert_output(/foo/, /bar/) do
   puts "fooooo"
   $stdout.puts "barrrr"
