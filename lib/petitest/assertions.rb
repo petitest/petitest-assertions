@@ -1,3 +1,4 @@
+require "petitest"
 require "petitest/assertions/version"
 require "stringio"
 
