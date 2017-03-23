@@ -29,15 +29,17 @@ gem install petitest-assertions
 
 ### Setup
 
-Include `Petitest::Assertions`:
+1. Require `"petitest/assertions"`
+2. Include `Petitest::Assertions` into your test groups
 
 ```ruby
+require "petitest/autorun"
 require "petitest/assertions"
 
-class PetitestTest < Petitest::TestGroup
+class ExampleTest < Petitest::TestGroup
   include ::Petitest::Assertions
 
-  # ... your tests ...
+  # ... test cases ...
 end
 ```
 
