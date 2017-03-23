@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/petitest-assertions.svg)](https://rubygems.org/gems/petitest-assertions)
 [![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/github/petitest/petitest-assertions)
 
-Assertions for [Petitest](https://github.com/petitest/petitest-assertions).
+Assertions for [Petitest](https://github.com/petitest/petitest).
 
 ## Installation
 
